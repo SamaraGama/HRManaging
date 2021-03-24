@@ -26,7 +26,6 @@ namespace HRManaging
             Console.WriteLine($"{director1.Name}'s salary after a raise is {director1.Salary}.");
 
             Console.ReadLine();
-
         }
     }
 }

@@ -27,7 +27,7 @@ namespace HRManaging.Employees
         {
             //Salay = Salary + (Salary + 0.1);
             //Salary = Salary * 1.1;
-            Salary *= 1.1;
+            Salary += 0.1;
         }
     }
 }
