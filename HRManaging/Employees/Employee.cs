@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HRManaging.Employees
 {
-    public class Employee
+    public abstract class Employee
     {
         public static int TotalEmployees { get; private set; }
         public virtual string Name { get; set; }
@@ -27,7 +27,7 @@ namespace HRManaging.Employees
         {
             //Salay = Salary + (Salary + 0.1);
             //Salary = Salary * 1.1;
-            Salary += 0.1;
+            Salary *= 1.1;
         }
     }
 }

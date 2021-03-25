@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace HRManaging.Employees
 {
-    public class Director : Employee
+    class Assistant : Employee
     {
-        public Director(string name, string id, double salary) : base(name, id, salary)
+        public Assistant(string name, string id, double salary) : base(name, id, salary)
         {
         }
         public override double GetBonus()
         {
-            //return Salary + base.GetBonus();
-            return Salary * 0.5;
+            return Salary * 0.2;
         }
         public override void GetRaise()
         {
-            Salary *= 1.15;
+            Salary *= 1.1;
         }
     }
 }

@@ -17,7 +17,7 @@ namespace HRManaging.Employees
         }
         public override void GetRaise()
         {
-            Salary += 0.11;
+            Salary += 1.11;
         }
     }
 }
