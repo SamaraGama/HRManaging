@@ -19,15 +19,7 @@ namespace HRManaging.Employees
             Salary = salary;
             TotalEmployees++;
         }
-        public virtual double GetBonus()
-        {
-            return Salary * 0.10;
-        }
-        public virtual void GetRaise()
-        {
-            //Salay = Salary + (Salary + 0.1);
-            //Salary = Salary * 1.1;
-            Salary *= 1.1;
-        }
+        public abstract double GetBonus();
+        public abstract void GetRaise();
     }
 }

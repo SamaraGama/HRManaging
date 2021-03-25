@@ -11,7 +11,7 @@ namespace HRManaging
     {
         static void Main(string[] args)
         {
-            Employee employee1 = new Employee("Jane Doe", "0001", 3000);
+            Designer employee1 = new Designer("Jane Doe", "0001", 3000);
             employee1.GetBonus();
             Console.WriteLine($"{employee1.Name} is a {employee1.GetType()}. Id: {employee1.Id}. Salary: {employee1.Salary}. ");
             Console.WriteLine(Employee.TotalEmployees);
