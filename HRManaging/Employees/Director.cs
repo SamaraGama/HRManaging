@@ -8,8 +8,13 @@ namespace HRManaging.Employees
 {
     public class Director : Employee
     {
+        public string Password { get; set; }
         public Director(string name, string id, double salary) : base(name, id, salary)
         {
+        }
+        public bool authenticate()
+        {
+            return Password == Password;
         }
         public override double GetBonus()
         {
