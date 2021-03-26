@@ -12,7 +12,7 @@ namespace HRManaging.Employees
         public Director(string name, string id, double salary) : base(name, id, salary)
         {
         }
-        public bool authenticate()
+        public bool Authenticate()
         {
             return Password == Password;
         }
