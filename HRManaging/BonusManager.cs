@@ -20,5 +20,9 @@ namespace HRManaging
         {
             return _totalBonus;
         }
+        public int GetTotalEmployeesRegistered()
+        {
+            return _totalEmployees;
+        }
     }
 }

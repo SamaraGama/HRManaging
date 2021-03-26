@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HRManaging.Employees.AccountManager" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\AccountManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRManaging.Employees.Assistant" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Assistant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRManaging.Employees.Designer" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Designer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRManaging.Employees.Director" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRManaging.Employees.Employee" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACgAAAAAAAAAAAAAgAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRManaging.BonusManager" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAABAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>BonusManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
