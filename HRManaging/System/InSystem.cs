@@ -9,7 +9,7 @@ namespace HRManaging.System
 {
     class InSystem
     {
-        public bool LogIn(Director employee, string password)
+        public bool LogIn(Authenticable employee, string password)
         {
             bool authenticated = employee.Authenticate(password);
             if (authenticated)

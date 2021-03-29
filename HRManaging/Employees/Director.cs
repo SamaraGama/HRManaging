@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace HRManaging.Employees
 {
-    public class Director : Employee
+    public class Director : Authenticable
     {
-        public string Password { get; set; }
         public Director(string name, string id, double salary) : base(name, id, salary)
         {
-        }
-        public bool Authenticate(string password)
-        {
-            return Password == password;
         }
         public override double GetBonus()
         {
