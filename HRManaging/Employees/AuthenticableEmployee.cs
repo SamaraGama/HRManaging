@@ -17,6 +17,14 @@ namespace HRManaging.Employees
         {
             return Password == password;
         }
+        public override double GetBonus()
+        {
+            return Salary;
+        }
+        public override void GetRaise()
+        {
+            return;
+        }
 
     }
 }
