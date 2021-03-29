@@ -7,15 +7,10 @@ using System.Threading.Tasks;
 
 namespace HRManaging.Employees
 {
-    class AccountManager : Employee, IAuthenticable
+    public class AccountManager : AuthenticableEmployee
     {
-        public string Password { get; set; }
         public AccountManager(string name, string id, double salary) : base(name, id, salary)
         {
-        }
-        public bool Authenticate(string password)
-        {
-            return Password == password;
         }
         public override double GetBonus()
         {

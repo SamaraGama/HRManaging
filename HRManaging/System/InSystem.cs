@@ -15,7 +15,7 @@ namespace HRManaging.System
             bool authenticated = employee.Authenticate(password);
             if (authenticated)
             {
-                Console.WriteLine($"{employee.Name} logged in successfully.");
+                Console.WriteLine("Logged in successfully.");
                 return true;
             }
             Console.WriteLine("Incorrect password.");
