@@ -12,9 +12,9 @@ namespace HRManaging.Employees
         public Director(string name, string id, double salary) : base(name, id, salary)
         {
         }
-        public bool Authenticate()
+        public bool Authenticate(string password)
         {
-            return Password == Password;
+            return Password == password;
         }
         public override double GetBonus()
         {
