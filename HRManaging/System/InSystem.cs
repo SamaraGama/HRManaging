@@ -1,4 +1,5 @@
 ﻿using HRManaging.Employees;
+using HRManaging.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace HRManaging.System
 {
     class InSystem
     {
-        public bool LogIn(Authenticable employee, string password)
+        public bool LogIn(IAuthenticable employee, string password)
         {
             bool authenticated = employee.Authenticate(password);
             if (authenticated)

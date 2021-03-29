@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HRManaging.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,15 @@ using System.Threading.Tasks;
 
 namespace HRManaging.Employees
 {
-    public class Director : Authenticable
+    public class Director : Employee, IAuthenticable
     {
+        public string Password { get; set; }
         public Director(string name, string id, double salary) : base(name, id, salary)
         {
+        }
+        public bool Authenticate(string password)
+        {
+            return Password == password;
         }
         public override double GetBonus()
         {
