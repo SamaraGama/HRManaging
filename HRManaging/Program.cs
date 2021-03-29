@@ -1,4 +1,5 @@
 ﻿using HRManaging.Employees;
+using HRManaging.System;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,8 +25,17 @@ namespace HRManaging
             Console.WriteLine(Employee.TotalEmployees);
             director1.GetRaise();
             Console.WriteLine($"{director1.Name}'s salary after a raise is {director1.Salary}.");
-
+            
+            UseInSystem();
             Console.ReadLine();
+        }
+        public static void UseInSystem()
+        {
+            InSystem inSystem = new InSystem();
+            Director director2 = new Director("Joseph Deo", "0004", 10000);
+            director2.Password = "Joseph'sPassword";
+            inSystem.LogIn(director2, "Joseph'sPassword");
+            inSystem.LogIn(director2, "NOTJoseph'sPassword");
         }
     }
 }
